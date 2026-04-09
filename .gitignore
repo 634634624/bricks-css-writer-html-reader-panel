@@ -1,0 +1,85 @@
+# === PERSONAL / SENSITIVE ===
+.claude/
+.memsearch/
+DEBUG-SESSION*.md
+app/sql/
+app/public/wp-config.php
+
+# === PERSONAL NOTES / LOCAL PATHS ===
+PROJECT-MAP-*.md
+readme-cm6gpt-lite.md
+readme-cm6gpt.md
+CODE-REVIEW-CM6GPT-Lite.md
+sidebars
+up
+
+# === INTERNAL DOCS (handoffs, reviews, plans, trackers) ===
+app/public/wp-content/plugins/CM6GPT-Lite/docs/AI-*
+app/public/wp-content/plugins/CM6GPT-Lite/docs/CODE-REVIEW-*
+app/public/wp-content/plugins/CM6GPT-Lite/docs/PRODUCTION-*
+app/public/wp-content/plugins/CM6GPT-Lite/docs/SHARED-*
+app/public/wp-content/plugins/CM6GPT-Lite/docs/superpowers/
+
+# === WORDPRESS CORE & WP-CONTENT (boilerplate, not the project) ===
+app/public/wp-admin/
+app/public/wp-includes/
+app/public/wp-content/uploads/
+app/public/wp-content/themes/
+app/public/wp-content/upgrade/
+app/public/wp-content/cache/
+app/public/wp-content/mu-plugins/
+app/public/wp-content/fluent-snippet-storage/
+app/public/wp-content/index.php
+app/public/wp-content/*.json
+app/public/wp-*.php
+app/public/index.php
+app/public/license.txt
+app/public/readme.html
+app/public/xmlrpc.php
+app/public/.htaccess
+app/public/debug-*.php
+app/public/local-*.php
+
+# === OTHER PLUGINS (not part of this project) ===
+app/public/wp-content/plugins/CM6GPT/
+app/public/wp-content/plugins/CM6GPT-Lite-Recipe-Manager/
+app/public/wp-content/plugins/CSSHTML*/
+app/public/wp-content/plugins/Gemini*/
+app/public/wp-content/plugins/HTMLCSS*/
+app/public/wp-content/plugins/HTMLCSSClaude*/
+app/public/wp-content/plugins/HTMLCSSGemini*/
+app/public/wp-content/plugins/Integrated*/
+app/public/wp-content/plugins/QuantumCSS*/
+app/public/wp-content/plugins/StickyHTML*/
+app/public/wp-content/plugins/bricks-*/
+app/public/wp-content/plugins/bricks-html-editor-panel/
+app/public/wp-content/plugins/bricksforge/
+app/public/wp-content/plugins/core-framework/
+app/public/wp-content/plugins/easy-code-manager/
+app/public/wp-content/plugins/qcss-cf/
+app/public/wp-content/plugins/index.php
+
+# === LOCAL DEV ENVIRONMENT ===
+node_modules/
+test-results/
+logs/
+conf/
+Sites/
+
+# === BUILD ARTIFACTS / BACKUPS ===
+*.tar.gz
+*.zip
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+
+# === MISC WORKING FILES (not part of plugin) ===
+my-acss 2/
+etch-1.0.0/
+up/
+sidebars/
+src/

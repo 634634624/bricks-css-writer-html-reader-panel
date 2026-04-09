@@ -1,0 +1,20 @@
+{
+  "bg-dark": {
+    "id": "bg-dark",
+    "label": "bg-dark",
+    "category": "Color > Background",
+    "description": "Sets background-color.",
+    "css": "background-color: var(--bg-dark, hsl(158, 22%, 10%));",
+    "preset": "all_classes",
+    "presetLabel": "All Classes Import"
+  },
+  "auto-grid-5": {
+    "id": "auto-grid-5",
+    "label": "auto-grid-5",
+    "category": "Layout > Grid",
+    "description": "source: .auto-grid-5",
+    "css": "display: grid;\ngap: var(--grid-gap);\ngrid-template-columns: var(--auto-grid-5);",
+    "preset": "shared",
+    "presetLabel": "Shared Library"
+  }
+}
